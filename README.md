@@ -7,3 +7,6 @@
     - kullanarak bir uyarı kutusuna yazma.
 ### 4. Console.log() 
     - kullanarak tarayıcı konsoluna yazma.
+
+## Object
+    - const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
