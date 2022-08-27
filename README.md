@@ -64,3 +64,46 @@
     - let str = "Apple, Banana, Kiwi";
       document.getElementById("demo").innerHTML = str.substr(-4);
     - Ekran çıktısı : Kiwi
+### 5. replace()
+    -  belirtilen bir değeri bir dizedeki başka bir değerle değiştirir:
+    - Yöntem yalnızca ilk eşleşmenin yerini alır.
+    - replace()yöntem büyük/küçük harf duyarlıdır.
+##### <p id="demo">Please visit Microsoft and Microsoft!</p>
+    - function myFunction() {
+        let text = document.getElementById("demo").innerHTML; 
+        document.getElementById("demo").innerHTML =
+        text.replace("Microsoft","W3Schools");
+        }
+    - Ekran çıktısı : Please visit Microsoft and Microsoft!
+    - Büyük/küçük harf duyarlılığını değiştirmek için,regular expression bayrağı kullanın: /i
+##### Not: Normal ifadeler tırnak işaretleri olmadan yazılır.
+##### <p id="demo">Please visit Microsoft!</p>
+    - function myFunction() {
+        let text = document.getElementById("demo").innerHTML; 
+        document.getElementById("demo").innerHTML =
+        text.replace(/MICROSOFT/i,"W3Schools");
+        }
+    -  Ekran çıktısı : Please visit Microsoft and Microsoft!
+    - Tüm eşleşmeleri değiştirmek için regular expression  ( genel eşleşme) bayrağı kullanın :/g
+##### <p id="demo">Please visit Microsoft and Microsoft!</p>
+    - function myFunction() {
+        let text = document.getElementById("demo").innerHTML; 
+        document.getElementById("demo").innerHTML =
+        text.replace(/Microsoft/g,"W3Schools");
+        }
+    -Ekran çıktısı : Please visit Microsoft and Microsoft!
+### 6. toUpperCase()
+    - Bir dize şu şekilde büyük harfe dönüştürülür 
+    - let text1 = "Hello World!";
+      let text2 = text1.toUpperCase();
+### 7. toLowerCase()
+    - Bir dize, şu şekilde küçük harfe dönüştürülür 
+### 8. concat()
+    - iki veya daha fazla dizeyi birleştirir.
+    - let text1 = "Hello";
+        let text2 = "World";
+        let text3 = text1.concat(" ", text2);
+    - concat(), artı operatörü yerine kullanılabilir. Bu iki satır aynı şeyi yapar:
+    - text = "Hello" + " " + "World!";
+        text = "Hello".concat(" ", "World!");
+
