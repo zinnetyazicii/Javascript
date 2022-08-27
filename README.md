@@ -31,8 +31,8 @@
 ### 2. slice(start, end)
     - bir dizgenin bir bölümünü çıkarır ve çıkarılan bölümü yeni bir dizgede döndürür.
     - Yöntem 2 parametre alır: başlangıç ​​konumu ve bitiş konumu (bitiş dahil değildir).
-     `let str = "Apple, Banana, Kiwi";
-        document.getElementById("demo").innerHTML = str.slice(7,13);`
+     ` let str = "Apple, Banana, Kiwi";
+        document.getElementById("demo").innerHTML = str.slice(7,13); `
     - Ekran çıktısı : Banana
 ### 3. substring(start, end)
 ### 4. substr(start, length)
