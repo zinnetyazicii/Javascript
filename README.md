@@ -34,14 +34,10 @@
     - let str = "Apple, Banana, Kiwi";        
     document.getElementById("demo").innerHTML = str.slice(7,13);
     - Ekran çıktısı : Banana
-    **Not**
-    **Bu kalın bir yazıdır**
-JavaScript, konumları sıfırdan sayar.
+##### Not: JavaScript, konumları sıfırdan sayar.
+#####  İlk konum 0'dır.
+##### İkinci konum 1'dir.
+##### Bir parametre negatifse, konum dizenin sonundan sayılır.
 
-İlk konum 0'dır.
-
-İkinci konum 1'dir.
-
-Bir parametre negatifse, konum dizenin sonundan sayılır.
 ### 3. substring(start, end)
 ### 4. substr(start, length)
