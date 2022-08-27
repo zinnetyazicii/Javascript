@@ -91,7 +91,7 @@
         document.getElementById("demo").innerHTML =
         text.replace(/Microsoft/g,"W3Schools");
         }
-    -Ekran çıktısı : Please visit Microsoft and Microsoft!
+    - Ekran çıktısı : Please visit Microsoft and Microsoft!
 ### 6. toUpperCase()
     - Bir dize şu şekilde büyük harfe dönüştürülür 
     - let text1 = "Hello World!";
