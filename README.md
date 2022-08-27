@@ -32,12 +32,24 @@
     - bir dizgenin bir bölümünü çıkarır ve çıkarılan bölümü yeni bir dizgede döndürür.
     - Yöntem 2 parametre alır: başlangıç ​​konumu ve bitiş konumu (bitiş dahil değildir).
     - let str = "Apple, Banana, Kiwi";        
-    document.getElementById("demo").innerHTML = str.slice(7,13);
+      document.getElementById("demo").innerHTML = str.slice(7,13);
     - Ekran çıktısı : Banana
-##### Not: JavaScript, konumları sıfırdan sayar.
-#####  İlk konum 0'dır.
-##### İkinci konum 1'dir.
-##### Bir parametre negatifse, konum dizenin sonundan sayılır.
-
+##### Not: JavaScript, konumları sıfırdan sayar.İlk konum 0'dır.İkinci konum 1'dir.Bir parametre negatifse, konum dizenin sonundan sayılır.
+    - let str = "Apple, Banana, Kiwi";
+      let part = str.slice(-12, -6);
+    - Ekran çıktısı : Banana
+##### Not: İkinci parametreyi atlarsanız, yöntem dizenin geri kalanını dilimler halinde kesecektir
+    - let str = "Apple, Banana, Kiwi";
+      document.getElementById("demo").innerHTML = str.slice(7);
+    - Ekran çıktısı : Banana, Kiwi
+    - let str = "Apple, Banana, Kiwi";
+        document.getElementById("demo").innerHTML = str.slice(-12
+    - Ekran çıktısı : Banana, Kiwi
 ### 3. substring(start, end)
+    - slice() ile benzerdir.
+    - Aradaki fark, 0'dan küçük başlangıç ​​ve bitiş değerlerinin
+    - let str = "Apple, Banana, Kiwi";
+      document.getElementById("demo").innerHTML = str.substring(7,13);
+    - Ekran çıktısı : Banana
+
 ### 4. substr(start, length)
