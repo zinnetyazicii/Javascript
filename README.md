@@ -51,5 +51,16 @@
     - let str = "Apple, Banana, Kiwi";
       document.getElementById("demo").innerHTML = str.substring(7,13);
     - Ekran çıktısı : Banana
+##### Not: İkinci parametreyi atlarsanız, substring() dizenin geri kalanını kesecektir.
 
 ### 4. substr(start, length)
+    - slice() ile benzerdir.
+    - Fark, ikinci parametrenin çıkarılan parçanın uzunluğunu belirtmesidir.
+    - let str = "Apple, Banana, Kiwi";
+      document.getElementById("demo").innerHTML = str.substr(7,6);
+    - Ekran çıktısı : Banana
+##### Not: İkinci parametreyi atlarsanız, substr()dizenin geri kalanını kesecektir.
+##### Not: İlk parametre negatifse, konum dizenin sonundan itibaren sayılır.
+    - let str = "Apple, Banana, Kiwi";
+      document.getElementById("demo").innerHTML = str.substr(-4);
+    - Ekran çıktısı : Kiwi
