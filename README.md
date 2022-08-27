@@ -34,8 +34,7 @@
 
     ```
     let str = "Apple, Banana, Kiwi";        
-    document.getElementById("demo").innerHTML = str.slice(7,13);
-    
+    document.getElementById("demo").innerHTML = str.slice(7,13);    
     ```
     - Ekran çıktısı : Banana
 ### 3. substring(start, end)
