@@ -215,3 +215,10 @@
         let VAT = 0.25;
         let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
     - Ekran çıktısı : Total: 12.50
+## Number
+###    1. isNaN()
+    - Bir değerin sayı olup olmadığını öğrenmek için global JavaScript işlevini kullanabilirsiniz:
+    - let x = 100 / "Apple";
+        isNaN(x);
+    - Ekran çıktısı : true
+## Number Methods
