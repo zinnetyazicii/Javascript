@@ -126,3 +126,28 @@
     - let text = "5";
       document.getElementById("demo").innerHTML = text.padStart(4,"0");
     - Ekran çıktısı : 0005
+##### Not: Yöntem padEnd()bir dize yöntemidir.Bir sayıyı doldurmak için önce sayıyı bir stringe dönüştürün.
+    - let numb = 5;
+        let text = numb.toString();
+        let padded = text.padEnd(4,"0");
+### 14. charAt(position)
+    - bir dizgede belirtilen bir dizindeki (konumdaki) karakteri döndürür:
+    - let text = "HELLO WORLD";
+        let char = text.charAt(0);
+### 15. charCodeAt(position)
+    - bir dizgede belirtilen bir dizindeki karakterin unicode'unu döndürür:
+    - Yöntem bir UTF-16 kodu (0 ile 65535 arasında bir tam sayı) döndürür.
+### 16. Property access [ ]
+    - [ ] dizelerde özelliğine erişime izin verir:
+    - let text = "HELLO WORLD";
+        let char = text[0];
+### 17. split()
+    - şu yöntemle bir diziye parçalanabilir
+##### <p id="demo"></p>
+    - let text = "a,b,c,d,e,f";
+        const myArray = text.split(",");
+        document.getElementById("demo").innerHTML = myArray[0];
+    - Ekran çıktısı : a
+    - parametre  atlanırsa, döndürülen dizi tüm dizeyi [0] dizininde içerecektir.
+    - Ayırıcı "" ise, döndürülen dizi tek karakterlik bir dizi olacaktır:
+### String Search
