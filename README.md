@@ -180,6 +180,22 @@
 #### Fark ettin mi? : indexOf()ve search(), eşit mi? 
     - İki yöntem eşit DEĞİLDİR . Bu farklar:
         + Yöntem search(), ikinci bir başlangıç ​​konumu bağımsız değişkeni alamaz.
-        + Yöntem indexOf(), güçlü arama değerleri (normal ifadeler) alamaz.
+        + Yöntem indexOf(), regular expiression (/gi) alamaz. 
+### 4. match()
+    - bir normal ifadeyle eşleşme için bir dize arar ve eşleşmeleri bir Array nesnesi olarak döndürür.
+##### <p id="demo"></p>
+    - let text = "The rain in SPAIN stays mainly in the plain"; 
+        document.getElementById("demo").innerHTML = text.match(/ain/gi);
+    -  Ekran çıktısı : ain,AIN,ain,ain
+### 5. includes()
+    - dize belirtilen bir değer içeriyorsa, yöntem true değerini döndürür.
+    -  let text = "Hello world, welcome to the universe.";
+        text.includes("world");
+    -  Ekran çıktısı : true
+#####  string.includes(searchvalue, start)
+- let text = "Hello world, welcome to the universe.";
+        text.includes("world", 12);
+-  Ekran çıktısı : false
 ### 4. startsWith()
+    - Bir dize belirtilen bir değerle başlıyorsa 
 ### 5. endsWith()
