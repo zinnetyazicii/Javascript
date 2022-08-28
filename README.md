@@ -277,6 +277,10 @@
     - Ekran çıktısı :   123
                         123
                         123
-### 6. toPrecision()
-### 6. toPrecision()
-### 6. toPrecision()
+#### Değişkenleri Sayılara Dönüştürme
+### 6. Number()
+### 7. parseInt()
+### 8. parseFloat()
+### 9. toPrecision()
+### 10. toPrecision()
+### 11. toPrecision()
