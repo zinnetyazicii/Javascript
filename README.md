@@ -196,13 +196,22 @@
     - let text = "Hello world, welcome to the universe.";
         text.includes("world", 12);
     -  Ekran çıktısı : false
-### 4. startsWith()
+### 6. startsWith()
     - Bir dize belirtilen bir değerle başlıyorsa true aksi durumda false döndürür
 ### string.startsWith(searchvalue, start)
     - let text = "Hello world, welcome to the universe.";
         text.startsWith("world", 5)    // Returns false
-### 5. endsWith()
+### 7. endsWith()
     - Bir dize belirtilen bir değerle bitiyorsa true aksi durumda false döndürür
 ### string.endsWith(searchvalue, length)
     - let text = "Hello world, welcome to the universe.";
-text.endsWith("world", 11); //true
+        text.endsWith("world", 11); //true
+## Template Literals
+    - + operataörü kullanmadan  `` içinde yazarak farklı türleri birleştirmeyi sağlar.
+    - let firstName = "John";
+        let lastName = "Doe";
+        let text = `Welcome ${firstName}, ${lastName}!`;
+    - let price = 10;
+        let VAT = 0.25;
+        let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
+    - Ekran çıktısı : Total: 12.50
