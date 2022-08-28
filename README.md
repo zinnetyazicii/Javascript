@@ -151,3 +151,35 @@
     - parametre  atlanırsa, döndürülen dizi tüm dizeyi [0] dizininde içerecektir.
     - Ayırıcı "" ise, döndürülen dizi tek karakterlik bir dizi olacaktır:
 ## String Search
+### 1. indexOf()
+    -  bir dizede belirtilen  metnin  ilk konumunun indeksini döndürür.
+    - let str = "Please locate where 'locate' occurs!";
+        str.indexOf("locate");
+    - Ekran çıktısı : 7 
+##### Not: JavaScript, konumları sıfırdan sayar. 0, bir dizedeki ilk konumdur, 1 ikincidir, 2 üçüncüdür, ...
+### 2. lastIndexOf()
+    - bir dizede belirtilen  metnin  son konumunun indeksini döndürür.
+    - let str = "Please locate where 'locate' occurs!";
+        str.indexOf("locate");
+    - Ekran çıktısı : 21 
+#### Uyarı: Her ikisi indexOf()ve lastIndexOf()metin bulunamazsa -1 döndürür:
+#### Uyarı: Her iki yöntem de arama için başlangıç ​​konumu olarak ikinci bir parametreyi kabul eder:
+    - let str = "Please locate where 'locate' occurs!";
+        str.indexOf("locate", 15);
+    - Ekran çıktısı : 21 
+#### Uyarı: lastIndexOf() sondan başa doğru  arama yapar, yani: ikinci parametre ise , 15arama 15. konumda başlar ve dizenin başına kadar arar.
+     - let str = "Please locate where 'locate' occurs!";
+        str.indexOf("locate", 15);
+    - Ekran çıktısı : 7 
+
+### 3. search()
+    -  belirtilen bir değer için bir dize arar ve eşleşmenin konumunu döndürür:
+    - let str = "Please locate where 'locate' occurs!";
+        str.search("locate");
+    - Ekran çıktısı : 7 
+#### Fark ettin mi? : indexOf()ve search(), eşit mi? 
+    - İki yöntem eşit DEĞİLDİR . Bu farklar:
+        + Yöntem search(), ikinci bir başlangıç ​​konumu bağımsız değişkeni alamaz.
+        + Yöntem indexOf(), güçlü arama değerleri (normal ifadeler) alamaz.
+### 4. startsWith()
+### 5. endsWith()
