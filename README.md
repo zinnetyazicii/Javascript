@@ -216,9 +216,67 @@
         let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
     - Ekran çıktısı : Total: 12.50
 ## Number
-###    1. isNaN()
+### 1. isNaN()
     - Bir değerin sayı olup olmadığını öğrenmek için global JavaScript işlevini kullanabilirsiniz:
     - let x = 100 / "Apple";
         isNaN(x);
     - Ekran çıktısı : true
 ## Number Methods
+### 1. toString()
+    - dize olarak bir sayı döndürür.
+### 2. toStoExponential()
+    - sayı yuvarlatılmış ve üstel gösterim kullanılarak yazılmış bir dize döndürür.
+    - bir parametre, ondalık noktanın arkasındaki karakter sayısını tanımlar:
+##### <p id="demo"></p>
+    - let x = 9.656;
+        document.getElementById("demo").innerHTML =
+        x.toExponential() + "<br>" + 
+        x.toExponential(2) + "<br>" + 
+        x.toExponential(4) + "<br>" + 
+        x.toExponential(6);
+    - Ekran çıktısı :   9.656e+0
+                        9.66e+0
+                        9.6560e+0
+                        9.656000e+0
+### 3. toFixed() 
+    - belirtilen sayıda ondalık basamakla yazılan sayı ile bir dize döndürür:
+##### <p id="demo"></p>
+    - let x = 9.656;
+        document.getElementById("demo").innerHTML =
+        x.toFixed(0) + "<br>" +
+        x.toFixed(2) + "<br>" +
+        x.toFixed(4) + "<br>" +
+        x.toFixed(6);
+    - Ekran çıktısı :   10
+                        9.66
+                        9.6560
+                        9.656000
+    
+### 4. toPrecision()
+    - belirtilen uzunlukta yazılmış bir sayı ile bir dize döndürür:
+##### <p id="demo"></p>
+    - let x = 9.656;
+        document.getElementById("demo").innerHTML = 
+        x.toPrecision() + "<br>" +
+        x.toPrecision(2) + "<br>" +
+        x.toPrecision(4) + "<br>" +
+        x.toPrecision(6);
+    - Ekran çıktısı :   9.656
+                        9.7
+                        9.656
+                        9.65600 
+    
+### 5. valueOf()
+    - sayı olarak bir sayı döndürür.
+##### <p id="demo"></p>
+    - let x = 123;
+        document.getElementById("demo").innerHTML = 
+        x.valueOf() + "<br>" +
+        (123).valueOf() + "<br>" +
+        (100 + 23).valueOf();
+    - Ekran çıktısı :   123
+                        123
+                        123
+### 6. toPrecision()
+### 6. toPrecision()
+### 6. toPrecision()
