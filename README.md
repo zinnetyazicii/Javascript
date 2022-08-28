@@ -192,10 +192,17 @@
     -  let text = "Hello world, welcome to the universe.";
         text.includes("world");
     -  Ekran çıktısı : true
-#####  string.includes(searchvalue, start)
-- let text = "Hello world, welcome to the universe.";
+###  string.includes(searchvalue, start)
+    - let text = "Hello world, welcome to the universe.";
         text.includes("world", 12);
--  Ekran çıktısı : false
+    -  Ekran çıktısı : false
 ### 4. startsWith()
-    - Bir dize belirtilen bir değerle başlıyorsa 
+    - Bir dize belirtilen bir değerle başlıyorsa true aksi durumda false döndürür
+### string.startsWith(searchvalue, start)
+    - let text = "Hello world, welcome to the universe.";
+        text.startsWith("world", 5)    // Returns false
 ### 5. endsWith()
+    - Bir dize belirtilen bir değerle bitiyorsa true aksi durumda false döndürür
+### string.endsWith(searchvalue, length)
+    - let text = "Hello world, welcome to the universe.";
+text.endsWith("world", 11); //true
