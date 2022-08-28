@@ -150,4 +150,4 @@
     - Ekran çıktısı : a
     - parametre  atlanırsa, döndürülen dizi tüm dizeyi [0] dizininde içerecektir.
     - Ayırıcı "" ise, döndürülen dizi tek karakterlik bir dizi olacaktır:
-### String Search
+## String Search
