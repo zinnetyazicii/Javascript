@@ -106,4 +106,23 @@
     - concat(), artı operatörü yerine kullanılabilir. Bu iki satır aynı şeyi yapar:
     - text = "Hello" + " " + "World!";
         text = "Hello".concat(" ", "World!");
-
+### 9. trim()
+    - bir dizgenin her iki tarafındaki boşlukları kaldırır:
+    - let text1 = "      Hello World!      ";
+      let text2 = text1.trim();
+### 10. trimStart()
+    - trim() gibi çalışır ancak boşlukları yalnızca bir dizenin başlangıcından kaldırır.
+### 11. trimEnd()
+    - trim() gibi çalışır ancak boşlukları yalnızca bir dizenin sonundan kaldırır.
+### 12. padStart()
+    - bir dizeyi başka bir dizeyle doldurur:
+##### <p id="demo"></p>
+    - let text = "5";
+    document.getElementById("demo").innerHTML = text.padStart(4,"x");
+    - Ekran çıktısı : xxx5
+### 13. padEnd()
+    - bir dizeyi başka bir dizeyle doldurur:
+##### <p id="demo"></p>
+    - let text = "5";
+      document.getElementById("demo").innerHTML = text.padStart(4,"0");
+    - Ekran çıktısı : 0005
