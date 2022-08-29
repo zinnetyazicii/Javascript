@@ -32,7 +32,7 @@
     - bir dizgenin bir bölümünü çıkarır ve çıkarılan bölümü yeni bir dizgede döndürür.
     - Yöntem 2 parametre alır: başlangıç ​​konumu ve bitiş konumu (bitiş dahil değildir).
     - let str = "Apple, Banana, Kiwi";        
-      document.getElementById("demo").innerHTML = str.slice(7,13);
+      document.getElementById("demo").innerHTML = str.slice(7,13);.
     - Ekran çıktısı : Banana
 ##### Not: JavaScript, konumları sıfırdan sayar.İlk konum 0'dır.İkinci konum 1'dir.Bir parametre negatifse, konum dizenin sonundan sayılır.
     - let str = "Apple, Banana, Kiwi";
