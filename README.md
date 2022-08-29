@@ -283,4 +283,4 @@
 ### 8. parseFloat()
 ### 9. toPrecision()
 ### 10. toPrecision()
-### 11. toPrecision()
+### 11. toPrecision().
