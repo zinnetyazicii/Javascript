@@ -1,5 +1,5 @@
 # Javascript
-### 1. innerHTML() 
+### 1. innerHTML(). 
     - kullanarak bir HTML öğesine yazma.
 ### 2. Document.write() 
     - kullanarak HTML çıktısına yazma.
