@@ -287,7 +287,7 @@
 - Argümanını ayrıştırır ve bir tamsayı döndürür
 #### MAX_VALUE	
 - JavaScript'te mümkün olan en büyük sayıyı döndürür
-- ```let x = Number.MAX_VALUE;`document.getElementById("demo").innerHTML = x;```
+- ```let x = Number.MAX_VALUE;    document.getElementById("demo").innerHTML = x;```
 #### MIN_VALUE	
 - JavaScript'te mümkün olan en küçük sayıyı döndürür
 #### POSITIVE_INFINITY	
@@ -296,3 +296,26 @@
 - Negatif sonsuzluğu temsil eder (taşma(overflow) durumunda döndürülür)
 #### NaN	
 - "Sayı Değil" değerini temsil eder
+
+## Array Properties and Methods
+### 1. length
+Bir lengthdizinin özelliği, bir dizinin uzunluğunu (dizi öğelerinin sayısı) döndürür.
+- Son Dizi Öğesine Erişim 
+- ```const fruits = ["Banana", "Orange", "Apple", "Mango"];  let fruit = fruits[fruits.length - 1];```
+### 2. push()
+- Bir diziye yeni bir eleman eklemenin en kolay yolu şu push()yöntemi kullanmaktır:
+### 3. toString() 
+- JavaScript yöntemi toString(), bir diziyi (virgülle ayrılmış) dizi değerleri dizisine dönüştürür.
+### 3. join() 
+- Yöntem join()ayrıca tüm dizi öğelerini bir dizgede birleştirir.
+- ```const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.join(" * ");```
+- Ekran çıktısı : Banana * Orange * Apple * Mango
+### 4. pop()
+- Yöntem pop(), dizideki son öğeyi kaldırır:
+### 5. push()
+- Yöntem push(), bir diziye yeni bir öğe ekler (sonda):
+### 6. shift()
+- Yöntem shift(), ilk dizi öğesini kaldırır ve diğer tüm öğeleri daha düşük bir dizine "kaydırır". (baştan siler ilk baştaki değeri döndürür)
+### 7. unshift()
+- Yöntem unshift(), bir diziye (başlangıçta) yeni bir öğe ekler ve eski öğeleri "değiştirir":(baştan ekler)
