@@ -287,8 +287,7 @@
 - Argümanını ayrıştırır ve bir tamsayı döndürür
 #### MAX_VALUE	
 - JavaScript'te mümkün olan en büyük sayıyı döndürür
-- ```let x = Number.MAX_VALUE;
-document.getElementById("demo").innerHTML = x;```
+- ```let x = Number.MAX_VALUE;`document.getElementById("demo").innerHTML = x;```
 #### MIN_VALUE	
 - JavaScript'te mümkün olan en küçük sayıyı döndürür
 #### POSITIVE_INFINITY	
