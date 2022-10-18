@@ -279,8 +279,21 @@
                         123
 #### Değişkenleri Sayılara Dönüştürme
 ### 6. Number()
+- Number() Bağımsız değişkeninden dönüştürülen bir sayı döndürür.
+- tarihi cast ettiğimizde 1.1.1970'ten bu yana geçen milisaniye sayısını döndürür.
 ### 7. parseInt()
+- Argümanını ayrıştırır ve kayan noktalı bir sayı döndürür
 ### 8. parseFloat()
-### 9. toPrecision()
-### 10. toPrecision()
-### 11. toPrecision()..
+- Argümanını ayrıştırır ve bir tamsayı döndürür
+#### MAX_VALUE	
+- JavaScript'te mümkün olan en büyük sayıyı döndürür
+- ```let x = Number.MAX_VALUE;
+document.getElementById("demo").innerHTML = x;```
+#### MIN_VALUE	
+- JavaScript'te mümkün olan en küçük sayıyı döndürür
+#### POSITIVE_INFINITY	
+- Represents infinity (returned on overflow)
+#### NEGATIVE_INFINITY	
+- Negatif sonsuzluğu temsil eder (taşma(overflow) durumunda döndürülür)
+#### NaN	
+- "Sayı Değil" değerini temsil eder
